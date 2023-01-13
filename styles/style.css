@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@font-face {
+    font-family: 'passion';
+    src: url('../fonts/PassionOne-Regular.ttf') format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'passion', cursive;
+    font-weight: normal;
+    font-size: 7vw;
+    text-transform: uppercase;
+}
+
+h1 > span {
+    font-size: 9.5vw;
+}
+
+p {
+    font-family: arial;
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+/*Fim do Header*/
+
+main {
+    margin: 0px 20px;
+}
+
+section p {
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    max-width: 70%;
+    line-height: 2em;
+}
+
+section > p {
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.image {
+    margin: 0px -20px;
+    padding: 10vh 40px;
+}
+
+#img01 {
+    background: darkgray url('../images/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+
+#img02 {
+    background: darkgray url('../images/background002.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+article {
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+article > p {
+    width: 42vw;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+/*Fim do Main*/
+
+footer {
+    width: 100%;
+    background-color: black;
+    padding: 1vh;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
